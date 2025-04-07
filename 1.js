@@ -1,7 +1,8 @@
+"use strict";
 {
-    var person = {
-        name: '李四',
+    const person = {
+        name: '张三',
         age: 18
     };
-    console.log("\u6211\u53EB".concat(person.name, "\uFF0C\u4ECA\u5E74").concat(person.age, "\u5C81\u4E86"));
+    console.log(`我叫${person.name}，今年${person.age}岁了`);
 }
